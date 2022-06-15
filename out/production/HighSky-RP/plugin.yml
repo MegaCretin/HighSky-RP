@@ -1,0 +1,74 @@
+author: Herllox, MegaCretin
+version: 1.0
+name: HighSky-RP
+api-version: 1.13
+main: fr.highsky.roleplay.Main
+depend: [Citizens,  FabledSkyBlock, Vault, H-Money]
+commands:
+  pets:
+    permission: pets.use
+  montures:
+    permission: montures.use
+  quests:
+    aliases: quetes
+    permission: quests.use
+  particules:
+    permission: particules.use
+  vote:
+    aliases: votes
+    permission: vote.use
+  tag:
+   permission: op
+  tags:
+    description: Commande des tags
+  box:
+    permission: op
+  xpbox:
+    description: Menu d'achat des clé de box d'xp
+  shop:
+    permission: op
+    description: commande principale du shop
+  sell:
+    description: Commande de sell all/hand
+  sellstick:
+    description: commande de give du SellStick
+  furnace:
+    description: Commande de furnace
+  avote:
+      permission: op
+  achat:
+      description: Commande d'achat
+  dayliquest:
+    aliases: [dq, qj]
+  weeklyquest:
+    aliases: [wq, weekquest]
+  menu:
+    description: menu principale
+  minepaste:
+    permission: op
+  minereset:
+    permission: op
+  staff:
+    aliases: moderation
+    permission: moderation.menu
+  togglechat:
+    permission: toggle.chat
+  fly:
+    description: Commande de fly
+  convertxp:
+      permission: convertxp.use
+      aliases:
+        - bottlexp
+        - bxp
+        - cxp
+  playtime:
+    aliases: pt
+  maintenance:
+    permission: op
+  scoreboard:
+    permission: scoreboard.gestion
+  bvn:
+    aliases:
+      - b
+      - bienvenue
+      - welcome

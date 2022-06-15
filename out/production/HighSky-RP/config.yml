@@ -1,0 +1,152 @@
+BlackMarket:
+  Number: 1
+  Stock: 10
+  Price: 15000
+Settings:
+  Quest-World: world
+WeeklyQuest:
+  Menu:
+    Name: "§3Quêtes Hebdomadaire §8§l» §7[§8I§7]"
+    Confirmation: "&7[§3QH&7] &8&l» &7Confirmation"
+    Beacon: "&7[§3QH&7] &8&l» Top des Joueurs"
+  Messages:
+    Prefix: "&b&lHighSky &7&l>> "
+    AddBDD: "§aTu as ajouté &e%oldnumber% &aà ta cagnotte pour §e%money%§a, tu en as maintenant &e%newnumber%."
+    NothingInv: "&cTu n'as rien dans ton inventaire."
+    NeedItem: "&cTu dois avoir l'item requis dans ton inventaire."
+  WeekItems: CACTUS
+  Winner:
+    One:
+      player:
+      recup:
+    Two:
+      player:
+      recup:
+    Three:
+      player:
+      recup:
+    Four:
+      player:
+      recup:
+    Five:
+      player:
+      recup:
+  #  ZONE DE CONFIGURATION DES CADEAUX  #
+  Reward:
+    One:
+      Message: "&fFélicitations vous avez fini &61er&f au dernier défi hebdomadaire."
+      Commands: true
+      Command1: "give %player% minecraft:dragon_egg 3"
+      Command2: "box manage Rare giveKey %player% 3"
+      Command3: "box manage Atypic giveKey %player% 5"
+      Money: 150000
+    Two:
+      Message: "&fFélicitations vous avez fini &62ème&f au dernier défi hebdomadaire."
+      Commands: true
+      Command1: "give %player% minecraft:dragon_egg 3"
+      Command2: "box manage Rare giveKey %player% 1"
+      Command3: "box manage Atypic giveKey %player% 3"
+      Money: 100000
+    Three:
+      Message: "&fFélicitations vous avez fini &63ème&f au dernier défi hebdomadaire."
+      Commands: true
+      Command1: "give %player% minecraft:dragon_egg 1"
+      Command2: "box manage Atypic giveKey %player% 1"
+      Money: 100000
+    Four:
+      Message: "&fFélicitations vous avez fini &64ème&f au dernier défi hebdomadaire."
+      Commands: true
+      Command1: "give %player% minecraft:dragon_egg 1"
+      Money: 100000
+    Five:
+      Message: "&fFélicitations vous avez fini &65ème&f au dernier défi hebdomadaire."
+      Commands: true
+      Command1: "give %player% minecraft:dragon_egg 1"
+      Money: 50000
+DayliQuest:
+  One: WHEAT
+  Two: COBBLESTONE
+  Three: ROTTEN_FLESH
+AutoMessage:
+  - "&fN'hésitez pas à voté pour &eHighsky &fgrâce à la commande: &b/vote&f."
+  - "&fN'hésitez pas à voté pour &eHighsky &fgrâce à la commande: &b/vote&f."
+  - "&fN'hésitez pas à voté pour &eHighsky &fgrâce à la commande: &b/vote&f."
+
+No-AI-List:
+  - PIG
+  - COW
+  - SHEEP
+  - CHICKEN
+  - RABBIT
+  - GOLEM
+  - COD
+  - DOLPHIN
+  - DONKEY
+  - ENDERMAN
+  - HORSE
+  - LLAMA
+  - MOOSHROOM
+  - MULE
+  - OCELOT
+  - PANDA
+  - PARROT
+
+NPC:
+  BlackMarket:
+    ID: 16
+  #Perm: shop.block
+  Blocks: 4
+  #Perm: shop.feed
+  Feed: 5
+  #Perm: shop.ore
+  Ore: 2
+  #Perm: shop.loots
+  Loots: 1
+  #Perm: shop.deco
+  Deco: 0
+  #Perm: shop.world
+  World: 7
+  #Perm: shop.other
+  Other: 6
+  #Perm: shop.wild
+  Wild: 3
+  #Perm: shop.promo
+  Promo: 17
+Double:
+  Enable: false
+  Time: 2
+  Long: 06/12/2020!17:00
+Sale:
+  Blocks: STONE
+  Eat: COOKED_BEEF
+  Ore: COAL
+  Loots: ROTTEN_FLESH
+  Coral: TUBE_CORAL
+  World: NETHERRACK
+  Other: COBWEB
+  Wild: OAK_SAPLING
+Bottle:
+  Title: "&e>> &aBouteille d'Expérience &e<<"
+  Description:
+    - "&e"
+    - "&6Experience: &f&l%exp%"
+    - "&e"
+    - "&7Faites clique droit pour"
+    - "&7récupérer les niveaux."
+
+  Messages:
+    Prefix: "&e&lEXP &8&l» "
+    Permission: "&cVous n'avez pas cette permission."
+    Lvl_Required: "&cVous n'avez pas assez de niveaux."
+    Exp_Required: "&cVous n'avez pas assez d'éxpérience."
+    Use_Bottle: "&aVous avez ajouté &e%exp% &apoints d'éxpérience à votre éxpérience."
+    Utilisation: "&cUtilisation: &e/convertxp&c."
+    Need_More: "&cVous devez avoir au minimum &e%min-lvl% &cniveaux pour récupérer votre expérience."
+
+  Settings:
+    Min_Lvl: 5
+
+
+Maintenance:
+  List: Herllox, MegaCretin
+  Statut: false
